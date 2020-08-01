@@ -1,0 +1,174 @@
+/*CSS file to accompany fullSite Demo Bootstrap Website*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+html, body {
+	height: 100%;
+	widows: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+}
+
+/*Nav Bar Styling*/
+.navbar {
+	padding-top: .8rem;
+}
+
+.navbar-nav li {
+	padding-right: 1.3rem;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+/*Carousel Styling*/
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption h3 {
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+}
+
+.btn-primary {
+	background-color: #6648b1;
+	border: 1px solid #6648b1;
+}
+
+/*Jumbotron Styling*/
+.jumbotron {
+	padding: 1rem;
+	border-radius: 0;
+}
+
+.padding {
+	padding-bottom: 2rem;
+}
+
+/*Fixed Image Background*/
+figure {
+margin: 0;
+}
+
+#fixed {
+	background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+/*First Welcome Styling*/
+
+.welcome {
+	width: 75&;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+.fa-code {
+	color: #e54d26;
+}
+
+.fa-bold {
+	color: #563d7c;
+}
+
+.fa-css3 {
+	color: #2163af;
+}
+
+.fa-code, .fa-bold, .fa-css3 {
+	font-size: 4em;
+	margin: 1rem;
+}
+
+/*Gif Section*/
+
+.fun {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.gif {
+	max-width: 100%;
+}
+
+/*Connect Section*/
+
+.social a {
+	font-size: 4.5em;
+	padding: 3rem;
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-twitter {
+	color: #00aced;
+}
+
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+
+.fa-instagram {
+	color: #517fa8;
+}
+
+
+.fa-facebook:hover, 
+.fa-twitter:hover, 
+.fa-google-plus-g:hover,
+.fa-instagram:hover {
+	color: #d5d5d5;
+}
+
+/*Footer styling*/
+
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+footer a {
+	color: #d5d5d5
+}
+
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
